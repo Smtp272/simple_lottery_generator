@@ -1,0 +1,5 @@
+.ColourBoxes-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}

@@ -1,0 +1,12 @@
+.LottoNumber{
+    background-color: tomato;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:white;    
+    margin: 0.5em 0.5em;
+    text-align: center;
+    display: inline-block;
+} 

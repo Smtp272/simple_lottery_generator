@@ -1,0 +1,52 @@
+.CoinFlip{
+    border-style: solid;
+    width:640px;
+    border-radius: 1rem;
+    border-color: grey;
+    border-width: 3px;
+    align-items: center;
+    text-align: center;
+}
+
+.CoinFlip-coin{
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    line-height: 8em;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 1em 0;
+    background-color: green;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.CoinFlip-coin.heads{
+    background-color: black;
+}
+.CoinFlip-coin.tails{
+    background-color: red;
+
+}
+
+.CoinFlip p{
+    font-size: large;;
+}
+
+.CoinFlip button{
+    background-color:rgba(255,228,196);
+    color:black;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4em ;
+    padding: 1em 4em;
+}
+
+.CoinFlip button:hover{
+    background-color:rgba(255,228,196,0.6);
+    transform: scale(1.05);
+}
